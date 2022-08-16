@@ -2,9 +2,14 @@
     import Login2  from '../auth/Login2.svelte';
     import Loading from '../load/Loading.svelte';
     import Button from '../components/Button.svelte';
-    import DigitalClock from '../components/DigitalClock.svelte';
+    // import DigitalClock from '../components/DigitalClock.svelte';
+    import Clock from '../components/Clock.svelte';
 </script>
 
+<!-- 클럭 -->
+<section>
+    <Clock />
+</section>
 
 <!-- <Login2 /> -->
 <!-- <Loading /> -->
@@ -15,11 +20,19 @@
 </div>
 
 <section>
-    <DigitalClock />
+    <!-- <DigitalClock /> -->
 </section>
 
 
 <style lang="scss">
+
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+    }
+
     .buttons{
         margin-top: 1rem;
         width: 100%;
