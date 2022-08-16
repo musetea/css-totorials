@@ -6,6 +6,12 @@
 
     const onClick = (e) => {
         if(!e.target.innerText) return;
+        const v = e.target.innerText;
+        if(values === ""){
+            if(v == "/" || v === "*" || v === "-" || v === "+" || v === "="){
+                return;
+            }
+        }
 
         switch(e.target.innerText)
         {
@@ -72,7 +78,8 @@
                     position: relative;
                     grid-column: span 4;  // 4칸설정
                     height: 100px;
-                    width: 100%;
+                    width: calc(100% - 20px);
+                    left: 10px;
                     border: none;
                     outline: none;
                     background: $--value-color;
