@@ -1,23 +1,31 @@
 <script>
     import Login2  from '../auth/Login2.svelte';
     import Loading from '../load/Loading.svelte';
+    import GrowRing from '../load/GrowRing.svelte';
     import Button from '../components/Button.svelte';
     // import DigitalClock from '../components/DigitalClock.svelte';
     import Clock from '../components/Clock.svelte';
 </script>
 
-<!-- 클럭 -->
+<section>
+    <GrowRing />
+</section>
+
+<!-- 클럭
 <section>
     <Clock />
 </section>
+ -->
 
 <!-- <Login2 /> -->
 <!-- <Loading /> -->
-<div class="buttons">
+
+
+<!-- <div class="buttons">
     <Button title={"Button0"} color={"#1e9bff"} />
     <Button title={"Button1"} color={"#ff1867"} />
     <Button title={"Button2"} color={"#62ff32"} />
-</div>
+</div> -->
 
 <section>
     <!-- <DigitalClock /> -->
