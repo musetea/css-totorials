@@ -7,11 +7,15 @@
     import Clock from '../components/Clock.svelte';
     import CheckBox from '../components/CheckBox.svelte';
     import Calculator from '$comp/Calculator.svelte';
-
+    import SearchBox from '../components/SearchBox.svelte';
     
 
 </script>
 
+
+<section class="searchBox">
+    <SearchBox />
+</section>
 
 <section class={"calc"}>
     <Calculator />
@@ -56,11 +60,22 @@
         margin: 1rem;
     }
 
+    .searchBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #297eff;
+        min-height: 180px;
+        z-index: 1;
+    }
+
+
     .calc{
+        position: relative;
         padding:2rem;
         background:#091921; 
         font-family:'Quicksand', sans-serif;
-        height: 1000px; 
+        height: 800px; 
         &::before{
             content: '';
             position: absolute;
