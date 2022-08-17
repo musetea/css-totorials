@@ -5,11 +5,22 @@
     import Button from '../components/Button.svelte';
     // import DigitalClock from '../components/DigitalClock.svelte';
     import Clock from '../components/Clock.svelte';
+    import CheckBox from '../components/CheckBox.svelte';
+
+    
+
 </script>
 
+
+
+<section style={`background:#cfd1e1; overflow:hidden; min-height:180px;`}>
+    <CheckBox />
+</section>
+
+<!-- 
 <section>
     <GrowRing />
-</section>
+</section> -->
 
 <!-- 클럭
 <section>
