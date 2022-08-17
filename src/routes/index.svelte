@@ -6,14 +6,18 @@
     // import DigitalClock from '../components/DigitalClock.svelte';
     import Clock from '../components/Clock.svelte';
     import CheckBox from '../components/CheckBox.svelte';
+    import Calculator from '$comp/Calculator.svelte';
 
     
 
 </script>
 
 
+<section class={"calc"}>
+    <Calculator />
+</section>
 
-<section style={`background:#cfd1e1; overflow:hidden; min-height:180px;`}>
+<section style={`background:#cfd1e1; overflow:hidden; min-height:180px; `}>
     <CheckBox />
 </section>
 
@@ -52,14 +56,41 @@
         margin: 1rem;
     }
 
-    .buttons{
-        margin-top: 1rem;
-        width: 100%;
-        // height: 600px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        // flex-direction: column;
-        gap: 10px;
+    .calc{
+        padding:2rem;
+        background:#091921; 
+        font-family:'Quicksand', sans-serif;
+        height: 1000px; 
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#e91e63, #ffc107);
+            clip-path: circle(22% at 30% 20%);
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#fff, #da00ff);
+            clip-path: circle(22% at 70% 90%);
+        }
     }
+
+    // .buttons{
+    //     margin-top: 1rem;
+    //     width: 100%;
+    //     // height: 600px;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     // flex-direction: column;
+    //     gap: 10px;
+    // }
 </style>

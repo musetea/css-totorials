@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <label for="checkbox">
@@ -82,6 +81,19 @@
                 filter: blur(1px);
             }
 
+            .shadow{
+                position: absolute;
+                top: 30px;
+                left: -12px;
+                width: 84.85px;
+                height: 240px;
+                background: linear-gradient(180deg, rgba(0,0,0,0.1), 
+                    transparent,transparent);
+                transform-origin: top;
+                transform: rotate(315deg);
+                pointer-events: none;
+            }
+
             .iconBox{
                 position: relative;
                 width: 100%;
@@ -102,21 +114,11 @@
                     font-size: 1.5em;
                     --ionicon-stroke-width: 48px;
                     transition: 0.5s;
+                    z-index: 10;
                 }
             }
 
-            .shadow{
-                position: absolute;
-                top: 30px;
-                left: -12px;
-                width: 84.85px;
-                height: 240px;
-                background: linear-gradient(180deg, rgba(0,0,0,0.1), 
-                    transparent,transparent);
-                transform-origin: top;
-                transform: rotate(315deg);
-                pointer-events: none;
-            }
+            
         }
     }
 </style>
