@@ -8,10 +8,15 @@
     import CheckBox from '../components/CheckBox.svelte';
     import Calculator from '$comp/Calculator.svelte';
     import SearchBox from '../components/SearchBox.svelte';
+    import SearchBox2 from '../components/SearchBox2.svelte';
     
 
 </script>
 
+
+<section class="searchBox2">
+    <SearchBox2 />
+</section>
 
 <section class="searchBox">
     <SearchBox />
@@ -58,6 +63,11 @@
         justify-content: center;
         align-items: center;
         margin: 1rem;
+    }
+
+    .searchBox2{
+        background: #e84118;
+        height: 100px;
     }
 
     .searchBox{
