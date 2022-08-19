@@ -9,12 +9,16 @@
     import Calculator from '$comp/Calculator.svelte';
     import SearchBox from '../components/SearchBox.svelte';
     import SearchBox2 from '../components/SearchBox2.svelte';
-
+    import TextLoader from '../load/TextLoader.svelte';
    
 
 </script>
 
 
+<section>
+    <TextLoader />
+</section>
+<!-- 
 <section class="searchBox2">
     <SearchBox2 />
 </section>
@@ -29,7 +33,7 @@
 
 <section style={`background:#cfd1e1; overflow:hidden; min-height:180px; `}>
     <CheckBox />
-</section>
+</section> -->
 
 <!-- 
 <section>
