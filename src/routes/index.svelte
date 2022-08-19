@@ -9,7 +9,8 @@
     import Calculator from '$comp/Calculator.svelte';
     import SearchBox from '../components/SearchBox.svelte';
     import SearchBox2 from '../components/SearchBox2.svelte';
-    
+
+   
 
 </script>
 
