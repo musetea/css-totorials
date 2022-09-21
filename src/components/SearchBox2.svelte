@@ -5,7 +5,7 @@
 <div class="container">
     <div class="search-box">
         <input type="text" name="" placeholder="Type to search">
-        <a class="search-btn" href="#">
+        <a class="search-btn" href={"#"}>
             <i class="fas fa-search"></i>
         </a>
     </div>

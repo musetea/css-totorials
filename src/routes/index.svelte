@@ -10,14 +10,18 @@
     import SearchBox from '../components/SearchBox.svelte';
     import SearchBox2 from '../components/SearchBox2.svelte';
     import TextLoader from '../load/TextLoader.svelte';
-   
+    import Login from '../auth/Login.svelte';
+
 
 </script>
 
 
-<section>
+<Login2 />
+
+
+<!-- <section>
     <TextLoader />
-</section>
+</section> -->
 <!-- 
 <section class="searchBox2">
     <SearchBox2 />
