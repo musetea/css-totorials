@@ -14,56 +14,13 @@
 
 
 </script>
-
-
-<Login2 />
-
-
-<!-- <section>
-    <TextLoader />
-</section> -->
-<!-- 
-<section class="searchBox2">
-    <SearchBox2 />
-</section>
-
-<section class="searchBox">
-    <SearchBox />
-</section>
-
-<section class={"calc"}>
-    <Calculator />
-</section>
-
-<section style={`background:#cfd1e1; overflow:hidden; min-height:180px; `}>
-    <CheckBox />
-</section> -->
-
-<!-- 
-<section>
-    <GrowRing />
-</section> -->
-
-<!-- 클럭
-<section>
-    <Clock />
-</section>
- -->
-
-<!-- <Login2 /> -->
-<!-- <Loading /> -->
-
-
-<!-- <div class="buttons">
-    <Button title={"Button0"} color={"#1e9bff"} />
-    <Button title={"Button1"} color={"#ff1867"} />
-    <Button title={"Button2"} color={"#62ff32"} />
-</div> -->
-
-<section>
-    <!-- <DigitalClock /> -->
-</section>
-
+<div class="container">
+    
+    <ul>
+        <li><a href="/pages/Caculator">Caculator</a></li>
+        <li><a href="/pages/RadialMenu">RadialMenu</a></li>
+    </ul>
+</div>
 
 <style lang="scss">
 

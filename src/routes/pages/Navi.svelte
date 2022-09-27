@@ -1,7 +1,7 @@
 <script>
     import Link from '$comp/Link.svelte';
     
-    const menus = [
+    let menus = [
         {title:'Home', icon:'<ion-icon name="home-outline"></ion-icon>', color:'#f44336', active:false},
         {title:'About',icon:'<ion-icon name="person-outline"></ion-icon>', color:'#ffa117',active:false}, 
         {title:'Messages', icon:'<ion-icon name="chatbubble-outline"></ion-icon>', color:'#0fc70f', active:false}, 
