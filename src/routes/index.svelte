@@ -19,6 +19,7 @@
     <ul>
         <li><a href="/pages/Caculator">Caculator</a></li>
         <li><a href="/pages/RadialMenu">RadialMenu</a></li>
+        <li><a href="/pages/CubesHover">Cubes Hover</a></li>
     </ul>
 </div>
 
