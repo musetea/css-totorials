@@ -25,6 +25,11 @@
 
 <style lang="scss">
 
+    .container{
+        position: absolute;
+        top: 80px;
+    }
+
     section{
         display: flex;
         justify-content: center;

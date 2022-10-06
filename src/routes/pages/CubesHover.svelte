@@ -41,10 +41,11 @@
 
 <style lang="scss">
     .container{
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+        min-height:100vh;
         background-color: #25335b;
         animation: animate 5s linear infinite;
     }
@@ -58,6 +59,9 @@
     }
 
     .cubes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
         top: -80px;
         transform: skewY(-20deg);

@@ -10,6 +10,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: #dee1e2;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
 li{
     list-style: none;
 }
