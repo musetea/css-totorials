@@ -15,6 +15,7 @@
             {#each menus as menu}
                 <li><a href={""}>{menu}</a></li>
             {/each}
+            <li><a href={"/auth/Login"}>{'Login'}</a></li>
         </ul>
         <div class="search">
             <span class="icon">
